@@ -26,10 +26,10 @@ $ cd ../Downloads/mods/1.12.2/
 $ cp -p RaspberryJamMod.jar ~/Desktop/Forged1.12.2/mods/
 $ sudo apt-get update
 $ sudo apt-get install python3-pip
-$ pip3 install mcpi-e
+$ pip3 install mcpi
    
 $ cat<<EOF > hello-world.py 
-from mcpi_e import minecraft
+from mcpi import minecraft
 mc = minecraft.Minecraft.create()
 mc.postToChat('Hello World!')
 EOF
