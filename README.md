@@ -22,8 +22,9 @@ start minecraft
 $ wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-installer.jar
 $ java -jar forge-1.12.2-14.23.5.2855-installer.jar 
 
-
-$ cd ../Downloads/mods/1.12.2/
+$ wget https://github.com/arpruss/raspberryjammod/releases/download/0.94/mods.zip
+$ unzip mods.zip
+$ cd 1.12.2/
 $ cp -p RaspberryJamMod.jar ~/Desktop/Forged1.12.2/mods/
 $ sudo apt-get update
 $ sudo apt-get install python3-pip
