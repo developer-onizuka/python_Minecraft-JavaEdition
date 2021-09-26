@@ -19,6 +19,7 @@ $ sudo dpkg -i Minecraft.deb
 $ sudo apt -y install openjdk-8-jre
 $ sudo update-alternatives --config java
 
+$ wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-installer.jar
 $ java -jar forge-1.12.2-14.23.5.2855-installer.jar 
 
 
