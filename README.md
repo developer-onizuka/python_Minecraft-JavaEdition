@@ -5,18 +5,14 @@ Use the virt-io driver instead of VGA and check 3D accelation for for accepting 
 
 ```
 $ sudo visudo
-$ sudo apt-get install -y curl
 $ sudo apt-get install -y wget
 $ wget https://launcher.mojang.com/download/Minecraft.deb
-$ sudo dpkg -i Minecraft.deb 
-
 $ sudo apt-get install -y default-jre
-$ sudo apt --fix-broken install
 $ sudo apt-get install -y openjdk-8-jre
 $ echo 2| sudo update-alternatives --config java
-
 $ sudo dpkg -i Minecraft.deb 
-
+```
+```
 start minecraft
 
 $ wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-installer.jar
