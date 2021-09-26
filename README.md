@@ -27,6 +27,7 @@ $ unzip mods.zip
 $ cd 1.12.2/
 $ cp -p RaspberryJamMod.jar ~/Desktop/Forged1.12.2/mods/
 $ sudo apt-get update
+$ sudo apt install openssh-server
 $ sudo apt-get install python3-pip
 $ pip3 install mcpi
    
@@ -38,3 +39,11 @@ EOF
 
 $ python3 hello-world.py 
 ```
+
+
+```
+$ sudo virsh domifaddr minecraft
+$ cd
+$ ssh-keygen -t rsa -N '' -f ~/.ssh/id_rsa <<< y
+$ ssh-copy-id -i ~/.ssh/id_rsa.pub username@192.168.122.162
+ ```
